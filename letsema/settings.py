@@ -259,8 +259,9 @@ CORS_ALLOW_ALL_ORIGINS = True  # For development only
 # ]
 #july 10
 CORS_ALLOWED_ORIGINS = [
-    "https://apr20-woii.vercel.app/"
-    
+    "https://apr20-woii.vercel.app",  # Remove the trailing slash
+    "http://localhost:3000",  # Add for local development
+    "http://localhost:5173",  # Add for Vite dev server
 ]
 
 # Additional CORS settings if needed
@@ -283,4 +284,5 @@ CORS_ALLOW_HEADERS = [
     'user-agent',
     'x-csrftoken',
     'x-requested-with',
+    'access-control-allow-origin',
 ]
