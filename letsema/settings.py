@@ -257,6 +257,11 @@ CORS_ALLOW_ALL_ORIGINS = True  # For development only
 #     "http://localhost:5173",
 #     "https://yourdomain.com",
 # ]
+#july 10
+CORS_ALLOWED_ORIGINS = [
+    "https://apr20-woii.vercel.app/"
+    
+]
 
 # Additional CORS settings if needed
 CORS_ALLOW_METHODS = [
